@@ -6,7 +6,7 @@
     "module": "ES2022",
     "types": ["node"],
     "paths": {
-      "~encore/*": ["./encore.gen/*"]
+      "@/encore/*": ["./encore.gen/*"]
     },
     "composite": true,
     "incremental": true,
