@@ -5,8 +5,7 @@
   "license": "MPL-2.0",
   "type": "module",
   "scripts": {
-    "dev": "encore run",
-    "test": "vitest"
+    "dev": "encore run"
   },
   "devDependencies": {
     "@types/node": "^20.5.7",
