@@ -35,8 +35,11 @@ importers:
         version: 4.32.1
     devDependencies:
       '@types/node':
-        specifier: ^20.5.7
+        specifier: ^20
         version: 20.17.10
+      '@workspace/typescript-config':
+        specifier: workspace:*
+        version: link:../../packages/typescript-config
       typescript:
         specifier: ^5
         version: 5.7.2
@@ -3429,7 +3432,7 @@ snapshots:
   '@types/glob@7.2.0':
     dependencies:
       '@types/minimatch': 5.1.2
-      '@types/node': 20.17.10
+      '@types/node': 22.10.2
 
   '@types/inquirer@6.5.0':
     dependencies:
@@ -3461,7 +3464,7 @@ snapshots:
 
   '@types/through@0.0.33':
     dependencies:
-      '@types/node': 20.17.10
+      '@types/node': 22.10.2
 
   '@types/tinycolor2@1.4.6': {}
 
