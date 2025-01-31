@@ -1,0 +1,22 @@
+{
+  "name": "backend",
+  "version": "0.0.1",
+  "private": true,
+  "license": "MPL-2.0",
+  "type": "module",
+  "scripts": {
+    "dev": "encore run",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.7",
+    "typescript": "^5",
+    "vitest": "^1.5.0"
+  },
+  "dependencies": {
+    "encore.dev": "^1.46.3"
+  },
+  "optionalDependencies": {
+    "@rollup/rollup-linux-x64-gnu": "^4.13.0"
+  }
+}
