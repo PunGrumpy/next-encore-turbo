@@ -1,11 +1,10 @@
-import { Button } from "@workspace/ui/components/button"
+import { LoginForm } from '@/components/login-form'
 
 export default function Page() {
   return (
-    <div className="flex items-center justify-center min-h-svh">
-      <div className="flex flex-col items-center justify-center gap-4">
-        <h1 className="text-2xl font-bold">Hello World</h1>
-        <Button size="sm">Button</Button>
+    <div className="flex min-h-svh flex-col items-center justify-center gap-6 bg-background p-6 md:p-10">
+      <div className="w-full max-w-sm">
+        <LoginForm />
       </div>
     </div>
   )
