@@ -7,7 +7,8 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "encore:generate": "encore gen client backend-5fri --output=./lib/client.ts --env=local"
   },
   "dependencies": {
     "@workspace/ui": "workspace:*",
