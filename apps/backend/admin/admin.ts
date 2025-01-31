@@ -1,5 +1,5 @@
 import { api } from 'encore.dev/api'
-import { getAuthData } from '@/encore/auth'
+import { getAuthData } from '~encore/auth'
 
 interface DashboardProps {
   value: string
